@@ -1,3 +1,2 @@
-web: gunicorn  Main2:app
-worker: python worker.py
-clock: python clock.py
+web: gunicorn  FlaskApp/app.py:app
+
